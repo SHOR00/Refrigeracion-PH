@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.contenedor{
+  background: url(img/close-up-and-selective-focus-hand-of-woman-holding-and-use-remote-control-to-open-aircondition-in-living-room-at-home.jpg) no-repeat center center/cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor h1{
+  color: #fff;
+  font-size: 2rem;
+}
+
+.navbar{
+  width: 100%;
+  padding: 1rem;
+  position: fixed;
+  top: .5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.navbar ul li{
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul li a{
+  color: #fff;
+}
+
+
+
+.contenido-uno{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.contenido-uno .contenido-flex{
+  min-width: 90%;
+  height: 90%;
+  margin: 1rem;
+  background: url(img/IMG-20211007-WA0061.jpg) no-repeat center center/cover;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5rem;
+}
+
+.contenido-uno .contenido-flex .parrafo{
+  color: #fff;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  border-radius: .5rem;
+}
+
+.contenido-uno .contenido-flex-dos {
+  min-width: 90%;
+  height: 90%;
+  margin: 1rem;
+  background: url(img/repairman-doing-air-conditioner-service.jpg) no-repeat center center/cover;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5rem;
+}
+
+.contenido-uno .contenido-flex-dos .parrafo-dos{
+  color: #fff;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  border-radius: .5rem;
+}
+
+
+.contenido-uno .contenido-flex-tres {
+  min-width: 90%;
+  height: 90%;
+  margin: 1rem;
+  background: url(img/air-conditioning-decoration-interior.jpg) no-repeat center center/cover;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5rem;
+}
+
+.contenido-uno .contenido-flex-tres .parrafo-tres {
+  color: #fff;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  border-radius: .5rem;
+}
+
+
+
+
+.contenido-dos{
+  background: url(img/freelance-working-from-home-young-woman-is-using-the-phone-while-working-at-living-room.jpg) no-repeat center center/cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+
+.contenido-dos h2{
+  font-size: 2rem;
+  margin-right: .5rem;
+  margin-top: 5rem;
+}
+
+.contenido-dos p{
+  font-size: 2rem;
+  margin-top: 7rem;
+}
+
+
+
+
+.contenido-tres{
+  width: 100vw;
+  background: #000;
+}
+
+
+.contenido-tres h3{
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 3rem;
+}
+
+.contenido-tres ul li{
+  color: #fff;
+  list-style-type: disc;
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+
+
+.footer{
+  width: 100vw;
+  
+}
