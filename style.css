@@ -1,3 +1,5 @@
+/* google font */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
@@ -12,6 +14,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* principal */
 
 .contenedor{
   background: url(img/close-up-and-selective-focus-hand-of-woman-holding-and-use-remote-control-to-open-aircondition-in-living-room-at-home.jpg) no-repeat center center/cover;
@@ -23,7 +26,7 @@
 }
 .contenedor h1{
   color: #fff;
-  font-size: 2rem;
+  font-size: clamp(2rem, 2.5vw, 3rem)
 }
 
 .navbar{
@@ -31,6 +34,7 @@
   padding: 1rem;
   position: fixed;
   top: .5rem;
+  left: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
@@ -43,7 +47,11 @@
   color: #fff;
 }
 
+.navbar ul li a:hover{
+  color: #fff9;
+}
 
+/* contenido uno */
 
 .contenido-uno{
   width: 100vw;
@@ -120,7 +128,7 @@
   border-radius: .5rem;
 }
 
-
+/* contenido dos */
 
 
 .contenido-dos{
@@ -145,7 +153,7 @@
 }
 
 
-
+/* contenido tres */
 
 .contenido-tres{
   width: 100vw;
@@ -159,6 +167,9 @@
   font-size: 3rem;
   padding-top: 3rem;
 }
+.contenido-tres ul{
+  padding-bottom: 1rem;
+}
 
 .contenido-tres ul li{
   color: #fff;
@@ -167,9 +178,17 @@
   font-size: 1.5rem;
 }
 
-
+/* footer */
 
 .footer{
   width: 100vw;
-  
+  padding: 1rem;
+}
+
+.fa-whatsapp{
+  font-size: clamp(2rem, 8vw, 10rem);
+  position: fixed;
+  color: green;
+  right: 2rem;
+  bottom: 3rem;
 }
