@@ -46,7 +46,7 @@
 }
 
 .navbar ul li a:hover{
-  color: #fff9;
+  color: #000;
 }
 
 /* contenido uno */
@@ -56,13 +56,12 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  overflow-x: scroll;
+  justify-content: center;
 }
 
 .contenido-uno .contenido-flex{
-  min-width: 90%;
+  width: 90%;
   height: 90%;
-  margin: 1rem;
   background: url(img/IMG-20211007-WA0061.jpg) no-repeat center center/cover;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
   display: flex;
@@ -81,50 +80,6 @@
   border-radius: .5rem;
 }
 
-.contenido-uno .contenido-flex-dos {
-  min-width: 90%;
-  height: 90%;
-  margin: 1rem;
-  background: url(img/repairman-doing-air-conditioner-service.jpg) no-repeat center center/cover;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: .5rem;
-}
-
-.contenido-uno .contenido-flex-dos .parrafo-dos{
-  color: #fff;
-  font-size: 3rem;
-  width: 100%;
-  text-align: center;
-  margin: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-  border-radius: .5rem;
-}
-
-
-.contenido-uno .contenido-flex-tres {
-  min-width: 90%;
-  height: 90%;
-  margin: 1rem;
-  background: url(img/air-conditioning-decoration-interior.jpg) no-repeat center center/cover;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: .5rem;
-}
-
-.contenido-uno .contenido-flex-tres .parrafo-tres {
-  color: #fff;
-  font-size: 3rem;
-  width: 100%;
-  text-align: center;
-  margin: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-  border-radius: .5rem;
-}
 
 /* contenido dos */
 
