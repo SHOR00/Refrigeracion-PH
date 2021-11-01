@@ -1,8 +1,8 @@
 ScrollReveal().reveal('.contenedor');
 
 ScrollReveal().reveal('.navbar', {delay: 500});
-ScrollReveal().reveal('h1', {delay: 500});
 
+ScrollReveal().reveal('h1', {delay: 500});
 
 ScrollReveal().reveal('.contenido-dos', {delay: 400});
 
