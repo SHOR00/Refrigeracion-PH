@@ -20,7 +20,7 @@ ScrollReveal().reveal('.rphTexto', {delay: 1000});
 
 const arrayImagenes = ["img/repairman-doing-air-conditioner-service.jpg", "img/air-conditioning-decoration-interior.jpg", "img/IMG-20211007-WA0065.jpg", "img/IMG-20211007-WA0061.jpg"];
 
-const arrayTextos = ["Servicio Técnico","Instalaciones Domiciliarias", "Mantenimiento", "Refrigeración Automotores"];
+const arrayTextos = ["Servicio Técnico","Instalaciones Domiciliarias", "Heladeras", "Refrigeración Automotores"];
 
 let num = 0;
 
